@@ -1,0 +1,32 @@
+license="The MIT License (MIT)"
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+    modId="skillful"
+    version="${file.jarVersion}"
+    certificateFingerprint = "72cd337644e68ff7257f69b2927894048793e577"
+    displayName="Skillful"
+    authors="Arekkuusu"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/skillful"
+    logoFile="logo.png"
+    description="Fighting skills & others"
+
+    [[dependencies.skillful]]
+            modId="genericskilllib"
+            mandatory=true
+            versionRange="[0,)"
+            ordering="AFTER"
+            side="BOTH"
+    [[dependencies.skillful]]
+    	    modId="forge"
+    	    mandatory=true
+    	    versionRange="[32,)"
+    	    ordering="NONE"
+    	    side="BOTH"
+    [[dependencies.skillful]]
+    	    modId="minecraft"
+    	    mandatory=true
+    	    versionRange="[1.16.1,)"
+    	    ordering="NONE"
+    	    side="BOTH"
